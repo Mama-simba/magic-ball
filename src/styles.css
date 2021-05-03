@@ -1,0 +1,28 @@
+
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    
+}
+
+input {
+    width: 50%;
+    height: 30px;
+    border: none;
+    
+}
