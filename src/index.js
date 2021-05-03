@@ -5,20 +5,19 @@ function showMessage(event) {
                "Not today",
                "Count on it",
                "Maybe",
-               "That sounds good!",
+               "Sounds good!",
                "Ask again",
                "No doubt",
                "Absolutely",
-               "Go for it",
-               "Wait for it",
+               "Go for it!",
+               "Wait for it ...",
                "Not now",
                "Cannot tell now",
                "Very likely",
                "It is ok",
                "Very doubtful",
                "You may rely on it",
-               "Try again",
-               "Outlook not so good"
+               "Try again"
            ]
 
            

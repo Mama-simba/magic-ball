@@ -1,28 +1,111 @@
 
 body {
-    background-color: aliceblue;
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+
 .container {
-    width: 50%;
-    height: auto;
+    width: 80%;
+    height: 650px;
     margin: 0 auto;
-    border: 1px solid black;
+    padding-top: 25px;
     border-radius: 10px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
+    font-family: 'Fredoka One', cursive, monospace;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #6974bf 0px 0px 20px, #6974bf 0px 0px 30px, #6974bf 0px 0px 40px, #6974bf 0px 0px 50px, #6974bf 0px 0px 75px;
     text-align: center;
+    color: #171a2e;
+    padding-bottom: 10px;
 }
+ 
+
+h2 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 0;
+}
+
+
+.description {
+    text-align: center;
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    margin-top: 0;
+    font-style: italic;
+
+}
+
 
 form {
     text-align: center;
+    padding-top: 5px;
     
 }
 
 input {
-    width: 50%;
+    width: 30%;
     height: 30px;
     border: none;
-    
+    border-radius: 4px;
+    opacity: 0.6;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    padding: 8px 15px;
+    margin-left: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white; 
+    box-shadow: 0 0 20px #b4b3b3;
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, #090B0A 20%, #b4b3b3  50%, #090B0A  100%);    
+}
+
+button:hover {
+    background-position: right center; /* change the color direction*/
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    z-index: 50;
+    filter: drop-shadow(0 5px 10px whitesmoke);
+}
+
+
+.result-container {
+    width: 14%;
+    height: auto;
+    margin: 0 auto;
+    z-index: 100;
+    position: relative;
+    bottom: 280px;
+}
+
+
+
+.result {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Krona One', sans-serif, monospace;
+    font-size: 17px;
+    text-shadow: 0px 2px 5px whitesmoke;
+
 }
