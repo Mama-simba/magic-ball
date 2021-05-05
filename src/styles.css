@@ -1,8 +1,15 @@
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
 body {
     background-image: url("./images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 
@@ -10,7 +17,7 @@ body {
     width: 80%;
     height: 650px;
     margin: 0 auto;
-    padding-top: 25px;
+    padding-top: 55px;
     border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,7 +28,7 @@ h1 {
     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #6974bf 0px 0px 20px, #6974bf 0px 0px 30px, #6974bf 0px 0px 40px, #6974bf 0px 0px 50px, #6974bf 0px 0px 75px;
     text-align: center;
     color: #171a2e;
-    padding-bottom: 10px;
+    padding: 20px 0;
 }
  
 
@@ -40,7 +47,6 @@ h2 {
     font-size: 12px;
     margin-top: 0;
     font-style: italic;
-
 }
 
 
@@ -51,17 +57,19 @@ form {
 }
 
 input {
-    width: 30%;
+    width: 35%;
     height: 30px;
+    padding-left: 10px;
     border: none;
     border-radius: 4px;
     opacity: 0.6;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    
 }
 
 button {
     padding: 9px 15px;
-    margin-left: 5px;
+    margin-left: 3px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     transition: 0.5s;
@@ -80,33 +88,29 @@ button:hover {
     cursor: pointer;
 }
 
-.ball {
-    width: 40%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    z-index: 50;
-    filter: drop-shadow(0 5px 10px whitesmoke);
-}
 
-
-.result-container {
-    width: 10%;
-    height: auto;
+.ball-container {
+    width: 45%;
+    height: 60%;
     margin: 0 auto;
-    z-index: 100;
-    position: relative;
-    bottom: 245px;
+    background-image: url("./images/ball.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 
 
 .result {
-    text-align: center;
     color: whitesmoke;
     font-family: 'Krona One', sans-serif, monospace;
-    font-size: 16px;
+    font-size: 12px;
     text-shadow: 0px 2px 5px whitesmoke;
+    text-align: center;
+    position: relative;
+    width: 20%;
+    margin: 0 auto;
+    top: 50%;
 }
 
 
@@ -116,7 +120,7 @@ footer {
     font-family: 'Courier New', Courier, monospace;
     color: white;
     text-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    padding: 25px 0 15px 0;
+    padding-top: 30px;
 }
 
 footer a {
@@ -137,3 +141,119 @@ footer i:hover{
     font-size: 20px;
 }
 
+
+/*TABLET*/
+
+@media(min-width: 415px) and (max-width: 960px){
+
+    .container {
+        padding-top: 35px;
+    }
+
+    h1 {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .description {
+        font-size: 8px;
+    }
+
+    form {
+        padding-top: 10px;
+    
+    }
+
+    input {
+        width: 50%;
+        font-size: 10px;
+        padding-left: 10px;
+    }
+
+    button {
+        padding: 10px 12px;
+        margin-left: 3px;
+        font-size: 10px;
+    }
+
+
+    .ball-container {
+        width: 90%;
+        height: 60%;
+    }
+
+    .result {
+        width: 20%;
+        font-size: 11px;
+        text-align: center;
+}
+
+
+    footer {
+        padding-top: 20px;
+        font-size: 12px;
+    }
+
+}
+
+
+/*MOBILE*/
+
+@media(max-width: 414px){
+
+
+    h1 {
+        font-size: 26px;
+        padding-top: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .description {
+        font-size: 8px;
+    }
+
+    form {
+        padding-top: 15px;
+    
+    }
+
+    input {
+        width: 70%;
+        font-size: 10px;
+        padding-left: 10px;
+    }
+
+    button {
+        padding: 10px 12px;
+        margin-left: 3px;
+        font-size: 10px;
+    }
+
+
+    .ball-container {
+        width: 100%;
+        height: 45%;
+    }
+
+    .result {
+        width: 22%;
+        font-size: 8px;
+        text-align: center;
+}
+
+
+    footer {
+        padding-top: 30px;
+        font-size: 12px;
+    }
+
+}
