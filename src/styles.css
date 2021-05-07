@@ -53,12 +53,13 @@ h2 {
 form {
     text-align: center;
     padding-top: 5px;
+    padding-left: 50px;
     
 }
 
 input {
     width: 35%;
-    height: 30px;
+    height: 35px;
     padding-left: 10px;
     border: none;
     border-radius: 4px;
@@ -168,6 +169,7 @@ footer i:hover{
 
     form {
         padding-top: 10px;
+        
     
     }
 
@@ -225,6 +227,7 @@ footer i:hover{
 
     form {
         padding-top: 15px;
+        padding-left: 10px;
     
     }
 
